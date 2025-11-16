@@ -75,17 +75,18 @@ function updateCurrentTimeAndWeather() {
 
 // Fungsi untuk mendapatkan icon cuaca berdasarkan weathercode
 function getWeatherIcon(weathercode) {
-    // Simplified weather icon mapping based on WMO Weather interpretation codes
-    if (weathercode === 0) return '☀️'; // Clear sky
-    if (weathercode <= 3) return '⛅'; // Partly cloudy
-    if (weathercode <= 48) return '☁️'; // Cloudy
-    if (weathercode <= 57) return '🌧️'; // Drizzle/Rain
-    if (weathercode <= 67) return '🌧️'; // Rain
-    if (weathercode <= 77) return '❄️'; // Snow
-    if (weathercode <= 82) return '🌦️'; // Rain showers
-    if (weathercode <= 86) return '❄️'; // Snow showers
-    if (weathercode <= 99) return '⛈️'; // Thunderstorm
-    return '☁️';
+    // Mapping icon berdasarkan WMO Weather interpretation codes, disesuaikan dengan getWeatherCondition
+    if (weathercode === 0) return '☀️'; // Cerah
+    if (weathercode === 1 || weathercode === 2) return '⛅'; // Cerah Berawan
+    if (weathercode === 3) return '☁️'; // Berawan
+    if (weathercode >= 45 && weathercode <= 48) return '☁️'; // Berkabut
+    if (weathercode >= 51 && weathercode <= 57) return '🌧️'; // Hujan Ringan
+    if (weathercode >= 61 && weathercode <= 67) return '🌧️'; // Hujan
+    if (weathercode >= 71 && weathercode <= 77) return '❄️'; // Salju
+    if (weathercode >= 80 && weathercode <= 82) return '🌦️'; // Hujan Ringan (showers)
+    if (weathercode >= 85 && weathercode <= 86) return '❄️'; // Salju (showers)
+    if (weathercode >= 95 && weathercode <= 99) return '⛈️'; // Hujan Petir
+    return '☁️'; // Default: Berawan
 }
 
 // Fungsi untuk mendapatkan kondisi cuaca dalam bahasa Indonesia

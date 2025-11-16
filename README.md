@@ -75,4 +75,4 @@ Silakan buat *issue* atau *pull request* jika ingin menambahkan fitur atau mempe
 
 * **Syarif Hidayat** - **045294181**
 
-Program ini dibuat sebagai **Tugas 2 Mata Kuliah Pemrograman Berbasis Perangkat Bergerak** dari **Universitas Terbuka**.
+Program ini dibuat sebagai **Tugas 2 Mata Kuliah Pemrograman Berbasis Piranti Bergerak** dari **Universitas Terbuka**.
