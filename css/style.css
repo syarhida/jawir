@@ -501,11 +501,6 @@ html.dark-mode {
 
 html.dark-mode body {
     background-color: #1a1a1a;
-    background-image: 
-        repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(75, 85, 99, 0.15) 10px, rgba(75, 85, 99, 0.15) 20px),
-        repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(55, 65, 81, 0.15) 10px, rgba(55, 65, 81, 0.15) 20px),
-        repeating-radial-gradient(circle at 25px 25px, rgba(75, 85, 99, 0.2) 0px, transparent 50%, rgba(75, 85, 99, 0.2) 50px, transparent 100%, rgba(75, 85, 99, 0.2) 150px),
-        repeating-linear-gradient(90deg, rgba(55, 65, 81, 0.08) 0px, transparent 1px, transparent 50px, rgba(55, 65, 81, 0.08) 51px, rgba(55, 65, 81, 0.08) 52px, transparent 53px, transparent 100px);
     background-size: 100% 100%, 100% 100%, 200px 200px, 100px 100px;
     color: var(--text-primary);
 }
