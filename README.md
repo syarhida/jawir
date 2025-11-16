@@ -4,6 +4,8 @@
 
 JAWIR merupakan program yang menampilkan informasi cuaca Jakarta secara **real-time** menggunakan data dari API Open-Meteo. Program ini dirancang agar ringan, cepat, dan mudah dipahami oleh pengguna.
 
+**🔗 Demo:** [jakartawir.netlify.app](https://jakartawir.netlify.app)
+
 ---
 
 ## 🔥 Fitur Utama
