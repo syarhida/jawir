@@ -11,8 +11,6 @@ JAWIR merupakan program yang menampilkan informasi cuaca Jakarta secara **real-t
 * Prakiraan cuaca real-time untuk wilayah Jakarta
 * Informasi lengkap: suhu, kondisi cuaca, kelembapan, kecepatan angin
 * Prakiraan harian untuk beberapa hari ke depan
-* Tampilan jam saat ini (WIB)
-* UI ringkas dan responsif
 * **Dukungan Dark Mode** untuk kenyamanan penggunaan
 
 ---
@@ -25,7 +23,7 @@ JAWIR merupakan program yang menampilkan informasi cuaca Jakarta secara **real-t
 
 ## 📡 Sumber Data API
 
-Aplikasi ini menggunakan API dari **Open-Meteo**:
+Program ini menggunakan API dari **Open-Meteo**:
 
 ```
 https://api.open-meteo.com/v1/forecast?
