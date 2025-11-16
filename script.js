@@ -1,4 +1,4 @@
-﻿const API_URL = 'https://api.open-meteo.com/v1/forecast?latitude=-6.2&longitude=106.8&hourly=temperature_2m,relativehumidity_2m,windspeed_10m,weathercode';
+﻿const API_URL = 'https://api.open-meteo.com/v1/forecast?latitude=-6.2&longitude=106.8&hourly=temperature_2m,relativehumidity_2m,windspeed_10m,weathercode&timezone=Asia%2FJakarta';
 
 // Global variables untuk menyimpan data
 let weatherData = null;
